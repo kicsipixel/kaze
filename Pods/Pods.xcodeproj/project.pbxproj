@@ -13,20 +13,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B71055A83CAC3122229153237D004BA /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
 		1C51FAD201BA7455414F38CB726EF801 /* Pods-kaze.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-kaze.modulemap"; sourceTree = "<group>"; };
+		21C2A354AB16CF9ED5E2995A3EDADEC9 /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
+		25AF216A14E37445C4E5FFD673410D78 /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
+		26A9B0B5385E154276B544023D8CCA64 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		28A75487F9C5E89B4D3E94D6D52C4290 /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
 		2BA700DBE07F66ADBDB812CF7AD5C64F /* Pods-kaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kaze.debug.xcconfig"; sourceTree = "<group>"; };
 		45E24D0D0BD25CCF5CA51EFAD831CB84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C79658D14ED733FCB1D03E5E6211FAC /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-Mac/HockeySDK.framework"; sourceTree = "<group>"; };
 		5CF3189AA1232301CE95F64EA34A8CF7 /* Pods-kaze-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kaze-acknowledgements.plist"; sourceTree = "<group>"; };
+		60D9A32B33D89311B4B7CF1C295B10CC /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
+		6AE11691FB551D00F422A88F2F99F9BB /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
 		76687266E550EE865E7B2C0A9010255A /* Pods-kaze-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kaze-umbrella.h"; sourceTree = "<group>"; };
 		8397367537D293FFE0CE32B658D0B486 /* Pods_kaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_kaze.framework; path = "Pods-kaze.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8525855C9EF712840085A74BF1322A0F /* Pods-kaze-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kaze-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97304FDC09EAC09218FB54BF405A888F /* Pods-kaze-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kaze-dummy.m"; sourceTree = "<group>"; };
+		BC5CB4DD2C4FEF4ABDD84CFFA900C48F /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
 		C51F9DF3AF52716FB5CB76AA87982764 /* Pods-kaze-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kaze-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7D2F4BBBAD3CC4F2338137912EFB1C9 /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
+		CF81EC86C09746C164DE7A99F53270FE /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
 		D27A56FDD8E22027169113EEAAA3614B /* Pods-kaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kaze.release.xcconfig"; sourceTree = "<group>"; };
 		E31DD51CAF920851ADE077C72858F372 /* Pods-kaze-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kaze-resources.sh"; sourceTree = "<group>"; };
+		EA60BF996639DB55DEB98ABC73744C55 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-Mac/HockeySDK.framework"; sourceTree = "<group>"; };
+		EACE4F3BA45AA7DBC3DC915F0C9E88C0 /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +60,15 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
-		118F3F3C9CDB22B73E1DD15EF9FE0121 /* Resources */ = {
+		1A6AC0C575379D0EBAC5F27740A6894E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26A9B0B5385E154276B544023D8CCA64 /* Sparkle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		265BD2F45943FD72A431A3EFE418C79C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -85,20 +104,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
-				EC73C2C5936CA0D91DD8DB08E2F47EB4 /* Pods */,
+				FC29D6105FA4F00E0DCC5899F344C015 /* Pods */,
 				5AEE46CD4DFB46E74AF6C5D14A7ED320 /* Products */,
 				3DBF8C6E59D05C12AE766332A249F1FC /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		81DDB17DC604B91F2E5C56B035B1E586 /* HockeySDK-Mac */ = {
-			isa = PBXGroup;
-			children = (
-				9701D5D67601FBF61A81B78476BAA545 /* Frameworks */,
-				118F3F3C9CDB22B73E1DD15EF9FE0121 /* Resources */,
-			);
-			name = "HockeySDK-Mac";
-			path = "HockeySDK-Mac";
 			sourceTree = "<group>";
 		};
 		8A406FD85019483E74A7EC6434BD612C /* Pods-kaze */ = {
@@ -119,18 +128,48 @@
 			path = "Target Support Files/Pods-kaze";
 			sourceTree = "<group>";
 		};
-		9701D5D67601FBF61A81B78476BAA545 /* Frameworks */ = {
+		CEA3BF4C5C99E144B13CF7B1290FFCC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C79658D14ED733FCB1D03E5E6211FAC /* HockeySDK.framework */,
+				EA60BF996639DB55DEB98ABC73744C55 /* HockeySDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC73C2C5936CA0D91DD8DB08E2F47EB4 /* Pods */ = {
+		D19E9101FC3015EB600695475C88B458 /* Sparkle */ = {
 			isa = PBXGroup;
 			children = (
-				81DDB17DC604B91F2E5C56B035B1E586 /* HockeySDK-Mac */,
+				CF81EC86C09746C164DE7A99F53270FE /* Sparkle.h */,
+				EACE4F3BA45AA7DBC3DC915F0C9E88C0 /* SUAppcast.h */,
+				0B71055A83CAC3122229153237D004BA /* SUAppcastItem.h */,
+				60D9A32B33D89311B4B7CF1C295B10CC /* SUErrors.h */,
+				6AE11691FB551D00F422A88F2F99F9BB /* SUExport.h */,
+				28A75487F9C5E89B4D3E94D6D52C4290 /* SUStandardVersionComparator.h */,
+				21C2A354AB16CF9ED5E2995A3EDADEC9 /* SUUpdater.h */,
+				C7D2F4BBBAD3CC4F2338137912EFB1C9 /* SUUpdaterDelegate.h */,
+				25AF216A14E37445C4E5FFD673410D78 /* SUVersionComparisonProtocol.h */,
+				BC5CB4DD2C4FEF4ABDD84CFFA900C48F /* SUVersionDisplayProtocol.h */,
+				1A6AC0C575379D0EBAC5F27740A6894E /* Frameworks */,
+			);
+			name = Sparkle;
+			path = Sparkle;
+			sourceTree = "<group>";
+		};
+		DB86389528FAA60AEC45EA38F25BEB66 /* HockeySDK-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3BF4C5C99E144B13CF7B1290FFCC4 /* Frameworks */,
+				265BD2F45943FD72A431A3EFE418C79C /* Resources */,
+			);
+			name = "HockeySDK-Mac";
+			path = "HockeySDK-Mac";
+			sourceTree = "<group>";
+		};
+		FC29D6105FA4F00E0DCC5899F344C015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB86389528FAA60AEC45EA38F25BEB66 /* HockeySDK-Mac */,
+				D19E9101FC3015EB600695475C88B458 /* Sparkle */,
 			);
 			name = Pods;
 			sourceTree = "<group>";

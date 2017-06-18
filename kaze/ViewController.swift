@@ -16,6 +16,8 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let defaults = UserDefaults.standard
+        defaults.set("https://rink.hockeyapp.net/api/2/apps/28c0b3dede59413e8b9662bbea0b6d3a", forKey: "SUFeedURL")
     }
 
     func workWithPath (path: String) {
