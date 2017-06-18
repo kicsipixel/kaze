@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10408E6825AFA47286E77F8D /* Pods_kaze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117573894D0D0EAD6DBB35E0 /* Pods_kaze.framework */; };
 		572497241E8592980036873C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572497231E8592980036873C /* AppDelegate.swift */; };
 		572497261E8592980036873C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572497251E8592980036873C /* ViewController.swift */; };
 		572497281E8592980036873C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572497271E8592980036873C /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		117573894D0D0EAD6DBB35E0 /* Pods_kaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B9B188BC3BB1BFC7D52A65 /* Pods-kaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaze/Pods-kaze.debug.xcconfig"; sourceTree = "<group>"; };
 		572497201E8592980036873C /* kaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		572497231E8592980036873C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		572497251E8592980036873C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		572497321E859C5B0036873C /* DropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropViewController.swift; sourceTree = "<group>"; };
 		572497341E85A2810036873C /* Scanner+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scanner+.swift"; sourceTree = "<group>"; };
 		57CD2F041EF5A27400F53E6A /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		825CFC2D0D15B2614467763E /* Pods-kaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaze.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaze/Pods-kaze.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10408E6825AFA47286E77F8D /* Pods_kaze.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DDE7B95504033C56B2FC6E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55B9B188BC3BB1BFC7D52A65 /* Pods-kaze.debug.xcconfig */,
+				825CFC2D0D15B2614467763E /* Pods-kaze.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		572497171E8592980036873C = {
 			isa = PBXGroup;
 			children = (
 				572497221E8592980036873C /* kaze */,
 				572497211E8592980036873C /* Products */,
+				0DDE7B95504033C56B2FC6E2 /* Pods */,
+				F1A0529389AF3C92D874CC15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +86,14 @@
 			path = kaze;
 			sourceTree = "<group>";
 		};
+		F1A0529389AF3C92D874CC15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				117573894D0D0EAD6DBB35E0 /* Pods_kaze.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5724972F1E8592980036873C /* Build configuration list for PBXNativeTarget "kaze" */;
 			buildPhases = (
+				94CB995B9688EB01894AC77C /* [CP] Check Pods Manifest.lock */,
 				5724971C1E8592980036873C /* Sources */,
 				5724971D1E8592980036873C /* Frameworks */,
 				5724971E1E8592980036873C /* Resources */,
+				B04381EEC046BCFC101163DE /* [CP] Embed Pods Frameworks */,
+				5F3E963B1E7BC8CE8763187B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +164,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F3E963B1E7BC8CE8763187B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaze/Pods-kaze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94CB995B9688EB01894AC77C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B04381EEC046BCFC101163DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaze/Pods-kaze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5724971C1E8592980036873C /* Sources */ = {
@@ -256,6 +331,7 @@
 		};
 		572497301E8592980036873C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B9B188BC3BB1BFC7D52A65 /* Pods-kaze.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -271,6 +347,7 @@
 		};
 		572497311E8592980036873C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825CFC2D0D15B2614467763E /* Pods-kaze.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
