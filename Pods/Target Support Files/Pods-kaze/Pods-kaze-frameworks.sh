@@ -90,9 +90,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/HockeySDK-Mac/HockeySDK-Mac/HockeySDK.framework"
+  install_framework "${PODS_ROOT}/Sparkle/Sparkle.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/HockeySDK-Mac/HockeySDK-Mac/HockeySDK.framework"
+  install_framework "${PODS_ROOT}/Sparkle/Sparkle.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
