@@ -18,7 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
         
         // HocekyApp
-        BITHockeyManager.shared().configure(withIdentifier: "28c0b3dede59413e8b9662bbea0b6d3a")
+        BITHockeyManager.shared().configure(withIdentifier: "b83787ac935a4136adcc4bad7dd78e3d")
         // Do some additional configuration if needed here
         BITHockeyManager.shared().start()
     }
