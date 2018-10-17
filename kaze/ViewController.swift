@@ -32,8 +32,8 @@ class ViewController: NSViewController {
         // Opening save panel
         let savePanel = NSSavePanel()
         savePanel.nameFieldStringValue = "tempCFR.cfr"
-        savePanel.begin { (result: Int) -> Void in
-            if result == NSFileHandlingPanelOKButton {
+        savePanel.begin { (result) -> Void in
+            if result == NSApplication.ModalResponse.OK {
                 let exportedFileURL = savePanel.url
                 let data = final.data(using: String.Encoding.utf8)
                 

@@ -19,7 +19,9 @@ class DropViewController: NSImageView {
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        register(forDraggedTypes: [NSFilenamesPboardType, NSURLPboardType, NSPasteboardTypeHTML])
+       // registerForDraggedTypes(convertToNSPasteboardPasteboardTypeArray([NSFilenamesPboardType.rawValue, NSURLPboardType.rawValue, convertFromNSPasteboardPasteboardType(NSPasteboard.PasteboardType.html)]))
+        let draggedType = NSPasteboard.PasteboardType(kUTTypeURL as String)
+        self.registerForDraggedTypes([draggedType])
     }
     
     let fileTypes = ["wss"]
@@ -45,7 +47,7 @@ class DropViewController: NSImageView {
     }
     
     override func performDragOperation(_ sender: NSDraggingInfo) -> Bool {
-        if let board = sender.draggingPasteboard().propertyList(forType: "NSFilenamesPboardType") as? NSArray,
+        if let board = sender.draggingPasteboard.propertyList(forType: convertToNSPasteboardPasteboardType("NSFilenamesPboardType")) as? NSArray,
             let filePath  = board[0] as? String {
             droppedFilePath = filePath
             ViewController().workWithPath(path: droppedFilePath!)
@@ -55,7 +57,7 @@ class DropViewController: NSImageView {
     }
     
     func checkExtension(drag: NSDraggingInfo) -> Bool {
-        if let board = drag.draggingPasteboard().propertyList(forType: "NSFilenamesPboardType") as? NSArray, let path = board[0] as? String {
+        if let board = drag.draggingPasteboard.propertyList(forType: convertToNSPasteboardPasteboardType("NSFilenamesPboardType")) as? NSArray, let path = board[0] as? String {
             let url = NSURL(fileURLWithPath: path)
             if let fileExtension = url.pathExtension?.lowercased() {
                 return fileTypes.contains(fileExtension)
@@ -64,4 +66,19 @@ class DropViewController: NSImageView {
         return false
     }
     
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToNSPasteboardPasteboardTypeArray(_ input: [String]) -> [NSPasteboard.PasteboardType] {
+	return input.map { key in NSPasteboard.PasteboardType(key) }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromNSPasteboardPasteboardType(_ input: NSPasteboard.PasteboardType) -> String {
+	return input.rawValue
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToNSPasteboardPasteboardType(_ input: String) -> NSPasteboard.PasteboardType {
+	return NSPasteboard.PasteboardType(rawValue: input)
 }
