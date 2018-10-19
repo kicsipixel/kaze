@@ -15,6 +15,8 @@
 		572497331E859C5B0036873C /* DropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572497321E859C5B0036873C /* DropViewController.swift */; };
 		572497351E85A2810036873C /* Scanner+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572497341E85A2810036873C /* Scanner+.swift */; };
 		57CD2F051EF5A27400F53E6A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 57CD2F041EF5A27400F53E6A /* Credits.rtf */; };
+		57F40A90217A508D0057587A /* NswindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F40A8F217A508D0057587A /* NswindowView.swift */; };
+		57F40A92217A521A0057587A /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F40A91217A521A0057587A /* MainWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		572497321E859C5B0036873C /* DropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropViewController.swift; sourceTree = "<group>"; };
 		572497341E85A2810036873C /* Scanner+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scanner+.swift"; sourceTree = "<group>"; };
 		57CD2F041EF5A27400F53E6A /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		57F40A8F217A508D0057587A /* NswindowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NswindowView.swift; sourceTree = "<group>"; };
+		57F40A91217A521A0057587A /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
 		825CFC2D0D15B2614467763E /* Pods-kaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaze.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaze/Pods-kaze.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +78,8 @@
 		572497221E8592980036873C /* kaze */ = {
 			isa = PBXGroup;
 			children = (
+				57F40A91217A521A0057587A /* MainWindow.swift */,
+				57F40A8F217A508D0057587A /* NswindowView.swift */,
 				57CD2F041EF5A27400F53E6A /* Credits.rtf */,
 				572497231E8592980036873C /* AppDelegate.swift */,
 				572497251E8592980036873C /* ViewController.swift */,
@@ -232,9 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F40A90217A508D0057587A /* NswindowView.swift in Sources */,
 				572497261E8592980036873C /* ViewController.swift in Sources */,
 				572497241E8592980036873C /* AppDelegate.swift in Sources */,
 				572497351E85A2810036873C /* Scanner+.swift in Sources */,
+				57F40A92217A521A0057587A /* MainWindow.swift in Sources */,
 				572497331E859C5B0036873C /* DropViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
