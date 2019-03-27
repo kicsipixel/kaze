@@ -1,15 +1,20 @@
 PODS:
-  - HockeySDK-Mac (5.1.0)
-  - Sparkle (1.20.0)
+  - HockeySDK-Mac (5.1.1)
+  - Sparkle (1.21.3)
 
 DEPENDENCIES:
   - HockeySDK-Mac
   - Sparkle
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HockeySDK-Mac
+    - Sparkle
+
 SPEC CHECKSUMS:
-  HockeySDK-Mac: b313b42665ee33546a861996ad60267f86bfd585
-  Sparkle: 48999e7ee032f05ca05e28451eadf4af8ede6b44
+  HockeySDK-Mac: 59e49aca86e4ee22c5c6ccc2d66771cfd6087f48
+  Sparkle: 3f75576db8b0265adef36c43249d747f22d0b708
 
 PODFILE CHECKSUM: 6e4d08af948762a7fd21ac9bee0279aa3ab0c000
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.6.0.beta.2

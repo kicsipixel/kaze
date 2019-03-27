@@ -6,82 +6,161 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		09262CA0EB6E0F622C55146DC40F4015 /* Sparkle */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B108BC112F689C7360D68BC934EBF89B /* Build configuration list for PBXAggregateTarget "Sparkle" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Sparkle;
+			productName = Sparkle;
+		};
+		7A5D0718ACB601B750758D7C948E53E5 /* HockeySDK-Mac */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8AAA258DD359C5DA313AAD50AED6D8CD /* Build configuration list for PBXAggregateTarget "HockeySDK-Mac" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "HockeySDK-Mac";
+			productName = "HockeySDK-Mac";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		2D2BC51930C0DF6944D3ACA7B719FC92 /* Pods-kaze-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76687266E550EE865E7B2C0A9010255A /* Pods-kaze-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BC1762B6576E88A47D6D6B85547E261 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
-		70344294F74A9CC69D024CCD4D777C8B /* Pods-kaze-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97304FDC09EAC09218FB54BF405A888F /* Pods-kaze-dummy.m */; };
+		2E0F06450AAEC343C5497F4D9154E960 /* Pods-kaze-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07618FBA8F6B160FCDABE939E5C254C0 /* Pods-kaze-dummy.m */; };
+		902AAAC7A4B8B065CDBE36379522712F /* Pods-kaze-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A60BA5A2CE91F7C0843CE23EB5F54A /* Pods-kaze-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5E4FAB8480BEB37E92F1DB384CCE83A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AFE638F59E262D940905854A013372 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		13FFEA05549B08E2CBD9F0A66F4357A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09262CA0EB6E0F622C55146DC40F4015;
+			remoteInfo = Sparkle;
+		};
+		184DFAA20D63A425D4585EF85C8E5F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A5D0718ACB601B750758D7C948E53E5;
+			remoteInfo = "HockeySDK-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0876060D6A9EE44D0500ED2712179ACB /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
-		0A101D685EECFBA4F6799CEDB39B34B4 /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
-		0B16E3528672185F83308774A93BD0A0 /* SPUDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloader.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloader.h; sourceTree = "<group>"; };
-		1C51FAD201BA7455414F38CB726EF801 /* Pods-kaze.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-kaze.modulemap"; sourceTree = "<group>"; };
-		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		2BA700DBE07F66ADBDB812CF7AD5C64F /* Pods-kaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kaze.debug.xcconfig"; sourceTree = "<group>"; };
-		3091B609630AA9864EF40D67130D1C7E /* SPUDownloadData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloadData.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloadData.h; sourceTree = "<group>"; };
-		35CB6150E4234FB673315487FAE25744 /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
-		39556CC17FFE076F9B1BC9046C7F44F3 /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
-		3A81C4F4378267C028EF961FC1D983DE /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-Mac/HockeySDK.framework"; sourceTree = "<group>"; };
-		45E24D0D0BD25CCF5CA51EFAD831CB84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E267C4ADD935189260F29994694F0C3 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
-		5CF3189AA1232301CE95F64EA34A8CF7 /* Pods-kaze-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kaze-acknowledgements.plist"; sourceTree = "<group>"; };
-		67DC52E825672CBC6A9BA9FB1578B023 /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
-		6EBA6148C36DE567D9632AB9C2FFD634 /* SPUDownloaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderProtocol.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderProtocol.h; sourceTree = "<group>"; };
-		76687266E550EE865E7B2C0A9010255A /* Pods-kaze-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kaze-umbrella.h"; sourceTree = "<group>"; };
-		8397367537D293FFE0CE32B658D0B486 /* Pods_kaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_kaze.framework; path = "Pods-kaze.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8525855C9EF712840085A74BF1322A0F /* Pods-kaze-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kaze-frameworks.sh"; sourceTree = "<group>"; };
-		87CE0D11F86AC5FF6B984D29FF214CC0 /* SPUDownloaderDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDeprecated.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDeprecated.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97304FDC09EAC09218FB54BF405A888F /* Pods-kaze-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kaze-dummy.m"; sourceTree = "<group>"; };
-		98D224A58645C8EAE0E62FC0C54CD5F0 /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
-		B22677B1CAE43BB98C84ADF11A9DC603 /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
-		B37904A5FDC20E8DE2473D9A0CDA5D50 /* SPUURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUURLRequest.h; path = Sparkle.framework/Versions/A/Headers/SPUURLRequest.h; sourceTree = "<group>"; };
-		BCB2FE0B81534A768D89C3B7777906A0 /* SPUDownloaderSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderSession.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderSession.h; sourceTree = "<group>"; };
-		C51F9DF3AF52716FB5CB76AA87982764 /* Pods-kaze-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kaze-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C8323E773973EDF536D48D317367B3AD /* SUCodeSigningVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUCodeSigningVerifier.h; path = Sparkle.framework/Versions/A/Headers/SUCodeSigningVerifier.h; sourceTree = "<group>"; };
-		CE0853224595841D90D547B33B8E1479 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		D27A56FDD8E22027169113EEAAA3614B /* Pods-kaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kaze.release.xcconfig"; sourceTree = "<group>"; };
-		E31DD51CAF920851ADE077C72858F372 /* Pods-kaze-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kaze-resources.sh"; sourceTree = "<group>"; };
-		ED4345456772337F062DC6F97A6167ED /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
-		F73E6B0C9DA9640510551B4F032E3286 /* SPUDownloaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDelegate.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDelegate.h; sourceTree = "<group>"; };
-		FCA7AE61A453A48CFB1338C180E012A5 /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
+		00B115560FA044D7E6E2CB8A5405413C /* Sparkle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.xcconfig; sourceTree = "<group>"; };
+		01B3EF0F57B1AC0BE34A392A228A37BD /* Pods-kaze-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kaze-frameworks.sh"; sourceTree = "<group>"; };
+		0529682AA597F8357D3D2A198FFB9AD7 /* Pods-kaze.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-kaze.modulemap"; sourceTree = "<group>"; };
+		055AB718A2E4A11113A664D654875600 /* SPUDownloadData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloadData.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloadData.h; sourceTree = "<group>"; };
+		05A52A7CAAEB0DE06802674E34F82F40 /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
+		07618FBA8F6B160FCDABE939E5C254C0 /* Pods-kaze-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kaze-dummy.m"; sourceTree = "<group>"; };
+		1F0DFECF6C95B672742E40B4B0931727 /* Pods-kaze-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kaze-resources.sh"; sourceTree = "<group>"; };
+		202C31AC73B5B8C91B08B16850C352FC /* Pods-kaze-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kaze-acknowledgements.plist"; sourceTree = "<group>"; };
+		332CF6D390EDA8927D00E83D8C9DCF8A /* Pods-kaze-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kaze-Info.plist"; sourceTree = "<group>"; };
+		3BF578A0B5CF7C51031D882BC61C4241 /* SPUURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUURLRequest.h; path = Sparkle.framework/Versions/A/Headers/SPUURLRequest.h; sourceTree = "<group>"; };
+		4669FD2CA9CAF7251574B4EC23349AD1 /* Pods-kaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kaze.release.xcconfig"; sourceTree = "<group>"; };
+		4720BBB6B5EA8C2F8D027BEE1556B86B /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
+		4845E4B0D37D9B79D7EB16680CC3D5E4 /* Pods-kaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kaze.debug.xcconfig"; sourceTree = "<group>"; };
+		551C5DA0281F58B7E56976E5E3483340 /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
+		56FC5C37559D59DD394D92BCEA4CFFF5 /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
+		5D221CE551A287FB028D989766AFE833 /* SPUDownloaderDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDeprecated.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDeprecated.h; sourceTree = "<group>"; };
+		5F5FFC1AB35AEC2016D728B845106DB2 /* SPUDownloaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderProtocol.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderProtocol.h; sourceTree = "<group>"; };
+		61B01B8FBEDE9012AF92799698A2C786 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
+		71DC9027AAF6F76327D5DE9B6B11A0C2 /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
+		7562F7D595568422930CD79EE284A458 /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
+		78278D601056FA4F4E9157CAB804C8B1 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-Mac/HockeySDK.framework"; sourceTree = "<group>"; };
+		8397367537D293FFE0CE32B658D0B486 /* Pods_kaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953D16694D8EC9F99DBC561CFA7BDDA8 /* SUCodeSigningVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUCodeSigningVerifier.h; path = Sparkle.framework/Versions/A/Headers/SUCodeSigningVerifier.h; sourceTree = "<group>"; };
+		96B28F20EE17C1D892777183D34F8890 /* SPUDownloaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDelegate.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDelegate.h; sourceTree = "<group>"; };
+		A1F983FC4872307984858A2BD91AE663 /* SPUDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloader.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloader.h; sourceTree = "<group>"; };
+		AA8F1BE8B2B88C200E5F4045D75B04E9 /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
+		B2836AE304DE80DAD5CF36FE416FD92B /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE77D9E8467FBE43BA20B061C0961E22 /* Pods-kaze-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kaze-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBE5F0FEFA7C4AEDA59C5FBBFCA19662 /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
+		D8233401B8FF01199B35678D7216F0CF /* HockeySDK-Mac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HockeySDK-Mac.xcconfig"; sourceTree = "<group>"; };
+		DE865B8DF426F0DADC61D74AD641F30C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		E46AD9F48E9618402DF3F8C96943B8BB /* SPUDownloaderSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderSession.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderSession.h; sourceTree = "<group>"; };
+		F1A60BA5A2CE91F7C0843CE23EB5F54A /* Pods-kaze-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kaze-umbrella.h"; sourceTree = "<group>"; };
+		F2AFE638F59E262D940905854A013372 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4023EB8757B0FCFC4DD649E72D6D485F /* Frameworks */ = {
+		64298551913FA6146956C4CE95DDF361 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BC1762B6576E88A47D6D6B85547E261 /* Cocoa.framework in Frameworks */,
+				F5E4FAB8480BEB37E92F1DB384CCE83A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04C068A18C5413F804A2959126093416 /* OS X */ = {
+		076787A7B798E08211B1E7937FC5E1B5 /* Sparkle */ = {
 			isa = PBXGroup;
 			children = (
-				270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */,
+				71DC9027AAF6F76327D5DE9B6B11A0C2 /* Sparkle.h */,
+				055AB718A2E4A11113A664D654875600 /* SPUDownloadData.h */,
+				A1F983FC4872307984858A2BD91AE663 /* SPUDownloader.h */,
+				96B28F20EE17C1D892777183D34F8890 /* SPUDownloaderDelegate.h */,
+				5D221CE551A287FB028D989766AFE833 /* SPUDownloaderDeprecated.h */,
+				5F5FFC1AB35AEC2016D728B845106DB2 /* SPUDownloaderProtocol.h */,
+				E46AD9F48E9618402DF3F8C96943B8BB /* SPUDownloaderSession.h */,
+				3BF578A0B5CF7C51031D882BC61C4241 /* SPUURLRequest.h */,
+				4720BBB6B5EA8C2F8D027BEE1556B86B /* SUAppcast.h */,
+				551C5DA0281F58B7E56976E5E3483340 /* SUAppcastItem.h */,
+				953D16694D8EC9F99DBC561CFA7BDDA8 /* SUCodeSigningVerifier.h */,
+				61B01B8FBEDE9012AF92799698A2C786 /* SUErrors.h */,
+				CBE5F0FEFA7C4AEDA59C5FBBFCA19662 /* SUExport.h */,
+				56FC5C37559D59DD394D92BCEA4CFFF5 /* SUStandardVersionComparator.h */,
+				AA8F1BE8B2B88C200E5F4045D75B04E9 /* SUUpdater.h */,
+				B2836AE304DE80DAD5CF36FE416FD92B /* SUUpdaterDelegate.h */,
+				7562F7D595568422930CD79EE284A458 /* SUVersionComparisonProtocol.h */,
+				05A52A7CAAEB0DE06802674E34F82F40 /* SUVersionDisplayProtocol.h */,
+				F4144D0A47D8A7E5D16885154BB58C31 /* Frameworks */,
+				5D86B64DD4C2393BD221EBFE4696559A /* Support Files */,
 			);
-			name = "OS X";
+			path = Sparkle;
 			sourceTree = "<group>";
 		};
-		1FF805F258A3F278EBFB3A0E43C0CBF8 /* HockeySDK-Mac */ = {
+		249D1CE539FE9C0794D599B72F878673 /* HockeySDK-Mac */ = {
 			isa = PBXGroup;
 			children = (
-				449B451A253C939658FA04915E8F2E29 /* Frameworks */,
-				ABB4797950A0335FBB26AD9B432655BA /* Resources */,
+				84A2D50EA2CD322C613F2C7B81C3133A /* Frameworks */,
+				D34ACEE68337ECC20998C851755607A6 /* Resources */,
+				DA1CF1D3919D63ECAFFE105E8E20C17D /* Support Files */,
 			);
-			name = "HockeySDK-Mac";
 			path = "HockeySDK-Mac";
+			sourceTree = "<group>";
+		};
+		30A4501EECBED429D29B29326484473E /* Pods-kaze */ = {
+			isa = PBXGroup;
+			children = (
+				0529682AA597F8357D3D2A198FFB9AD7 /* Pods-kaze.modulemap */,
+				BE77D9E8467FBE43BA20B061C0961E22 /* Pods-kaze-acknowledgements.markdown */,
+				202C31AC73B5B8C91B08B16850C352FC /* Pods-kaze-acknowledgements.plist */,
+				07618FBA8F6B160FCDABE939E5C254C0 /* Pods-kaze-dummy.m */,
+				01B3EF0F57B1AC0BE34A392A228A37BD /* Pods-kaze-frameworks.sh */,
+				332CF6D390EDA8927D00E83D8C9DCF8A /* Pods-kaze-Info.plist */,
+				1F0DFECF6C95B672742E40B4B0931727 /* Pods-kaze-resources.sh */,
+				F1A60BA5A2CE91F7C0843CE23EB5F54A /* Pods-kaze-umbrella.h */,
+				4845E4B0D37D9B79D7EB16680CC3D5E4 /* Pods-kaze.debug.xcconfig */,
+				4669FD2CA9CAF7251574B4EC23349AD1 /* Pods-kaze.release.xcconfig */,
+			);
+			name = "Pods-kaze";
+			path = "Target Support Files/Pods-kaze";
 			sourceTree = "<group>";
 		};
 		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				04C068A18C5413F804A2959126093416 /* OS X */,
+				E0A0F44171C587A61184070F950DD686 /* OS X */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,17 +168,18 @@
 		3DBF8C6E59D05C12AE766332A249F1FC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8A406FD85019483E74A7EC6434BD612C /* Pods-kaze */,
+				30A4501EECBED429D29B29326484473E /* Pods-kaze */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		449B451A253C939658FA04915E8F2E29 /* Frameworks */ = {
+		5082B0F6AFEF93F17B69A13593771ABF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A81C4F4378267C028EF961FC1D983DE /* HockeySDK.framework */,
+				249D1CE539FE9C0794D599B72F878673 /* HockeySDK-Mac */,
+				076787A7B798E08211B1E7937FC5E1B5 /* Sparkle */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5AEE46CD4DFB46E74AF6C5D14A7ED320 /* Products */ = {
@@ -110,111 +190,94 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5D86B64DD4C2393BD221EBFE4696559A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00B115560FA044D7E6E2CB8A5405413C /* Sparkle.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sparkle";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
-				BC74DFE2ED76E056665AB0DF467B06A2 /* Pods */,
+				5082B0F6AFEF93F17B69A13593771ABF /* Pods */,
 				5AEE46CD4DFB46E74AF6C5D14A7ED320 /* Products */,
 				3DBF8C6E59D05C12AE766332A249F1FC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8A406FD85019483E74A7EC6434BD612C /* Pods-kaze */ = {
+		84A2D50EA2CD322C613F2C7B81C3133A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				45E24D0D0BD25CCF5CA51EFAD831CB84 /* Info.plist */,
-				1C51FAD201BA7455414F38CB726EF801 /* Pods-kaze.modulemap */,
-				C51F9DF3AF52716FB5CB76AA87982764 /* Pods-kaze-acknowledgements.markdown */,
-				5CF3189AA1232301CE95F64EA34A8CF7 /* Pods-kaze-acknowledgements.plist */,
-				97304FDC09EAC09218FB54BF405A888F /* Pods-kaze-dummy.m */,
-				8525855C9EF712840085A74BF1322A0F /* Pods-kaze-frameworks.sh */,
-				E31DD51CAF920851ADE077C72858F372 /* Pods-kaze-resources.sh */,
-				76687266E550EE865E7B2C0A9010255A /* Pods-kaze-umbrella.h */,
-				2BA700DBE07F66ADBDB812CF7AD5C64F /* Pods-kaze.debug.xcconfig */,
-				D27A56FDD8E22027169113EEAAA3614B /* Pods-kaze.release.xcconfig */,
+				78278D601056FA4F4E9157CAB804C8B1 /* HockeySDK.framework */,
 			);
-			name = "Pods-kaze";
-			path = "Target Support Files/Pods-kaze";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ABB4797950A0335FBB26AD9B432655BA /* Resources */ = {
+		D34ACEE68337ECC20998C851755607A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		AF5AB4BE72DBC0DF2323BBF61090C526 /* Frameworks */ = {
+		DA1CF1D3919D63ECAFFE105E8E20C17D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE0853224595841D90D547B33B8E1479 /* Sparkle.framework */,
+				D8233401B8FF01199B35678D7216F0CF /* HockeySDK-Mac.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HockeySDK-Mac";
+			sourceTree = "<group>";
+		};
+		E0A0F44171C587A61184070F950DD686 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F2AFE638F59E262D940905854A013372 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		F4144D0A47D8A7E5D16885154BB58C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE865B8DF426F0DADC61D74AD641F30C /* Sparkle.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BC74DFE2ED76E056665AB0DF467B06A2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1FF805F258A3F278EBFB3A0E43C0CBF8 /* HockeySDK-Mac */,
-				EA0C105DAE6A64BC30799E1AF3D4E955 /* Sparkle */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		EA0C105DAE6A64BC30799E1AF3D4E955 /* Sparkle */ = {
-			isa = PBXGroup;
-			children = (
-				ED4345456772337F062DC6F97A6167ED /* Sparkle.h */,
-				3091B609630AA9864EF40D67130D1C7E /* SPUDownloadData.h */,
-				0B16E3528672185F83308774A93BD0A0 /* SPUDownloader.h */,
-				F73E6B0C9DA9640510551B4F032E3286 /* SPUDownloaderDelegate.h */,
-				87CE0D11F86AC5FF6B984D29FF214CC0 /* SPUDownloaderDeprecated.h */,
-				6EBA6148C36DE567D9632AB9C2FFD634 /* SPUDownloaderProtocol.h */,
-				BCB2FE0B81534A768D89C3B7777906A0 /* SPUDownloaderSession.h */,
-				B37904A5FDC20E8DE2473D9A0CDA5D50 /* SPUURLRequest.h */,
-				39556CC17FFE076F9B1BC9046C7F44F3 /* SUAppcast.h */,
-				67DC52E825672CBC6A9BA9FB1578B023 /* SUAppcastItem.h */,
-				C8323E773973EDF536D48D317367B3AD /* SUCodeSigningVerifier.h */,
-				4E267C4ADD935189260F29994694F0C3 /* SUErrors.h */,
-				FCA7AE61A453A48CFB1338C180E012A5 /* SUExport.h */,
-				98D224A58645C8EAE0E62FC0C54CD5F0 /* SUStandardVersionComparator.h */,
-				0A101D685EECFBA4F6799CEDB39B34B4 /* SUUpdater.h */,
-				0876060D6A9EE44D0500ED2712179ACB /* SUUpdaterDelegate.h */,
-				B22677B1CAE43BB98C84ADF11A9DC603 /* SUVersionComparisonProtocol.h */,
-				35CB6150E4234FB673315487FAE25744 /* SUVersionDisplayProtocol.h */,
-				AF5AB4BE72DBC0DF2323BBF61090C526 /* Frameworks */,
-			);
-			name = Sparkle;
-			path = Sparkle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		95991C426B04A4BB0C8DF9F31538929D /* Headers */ = {
+		15220C7118D598CBECAB678A9E6FBE5B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D2BC51930C0DF6944D3ACA7B719FC92 /* Pods-kaze-umbrella.h in Headers */,
+				902AAAC7A4B8B065CDBE36379522712F /* Pods-kaze-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4F9AC464864610D28E02361B66F91E1E /* Pods-kaze */ = {
+		D63A59B35D5B31DE094F4598245CDC66 /* Pods-kaze */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02352DBC82DFAE1088CB1C0D881D1615 /* Build configuration list for PBXNativeTarget "Pods-kaze" */;
+			buildConfigurationList = 50263710ED84FE91B6D8F097CB0AB3F5 /* Build configuration list for PBXNativeTarget "Pods-kaze" */;
 			buildPhases = (
-				DDCF85E218F6FDB7F17122A6241E9937 /* Sources */,
-				4023EB8757B0FCFC4DD649E72D6D485F /* Frameworks */,
-				95991C426B04A4BB0C8DF9F31538929D /* Headers */,
+				15220C7118D598CBECAB678A9E6FBE5B /* Headers */,
+				F1191472E900276B6B816E1FB8F9AA6D /* Sources */,
+				64298551913FA6146956C4CE95DDF361 /* Frameworks */,
+				170D4DF6779F8A2C7B321512D95D5030 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				007C05EFF1E7E030AEE272743C62F76E /* PBXTargetDependency */,
+				6A8A702550C9CF5325488786D36EA4D0 /* PBXTargetDependency */,
 			);
 			name = "Pods-kaze";
 			productName = "Pods-kaze";
@@ -227,72 +290,80 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 5AEE46CD4DFB46E74AF6C5D14A7ED320 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F9AC464864610D28E02361B66F91E1E /* Pods-kaze */,
+				7A5D0718ACB601B750758D7C948E53E5 /* HockeySDK-Mac */,
+				D63A59B35D5B31DE094F4598245CDC66 /* Pods-kaze */,
+				09262CA0EB6E0F622C55146DC40F4015 /* Sparkle */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		170D4DF6779F8A2C7B321512D95D5030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		DDCF85E218F6FDB7F17122A6241E9937 /* Sources */ = {
+		F1191472E900276B6B816E1FB8F9AA6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70344294F74A9CC69D024CCD4D777C8B /* Pods-kaze-dummy.m in Sources */,
+				2E0F06450AAEC343C5497F4D9154E960 /* Pods-kaze-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		007C05EFF1E7E030AEE272743C62F76E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HockeySDK-Mac";
+			target = 7A5D0718ACB601B750758D7C948E53E5 /* HockeySDK-Mac */;
+			targetProxy = 184DFAA20D63A425D4585EF85C8E5F42 /* PBXContainerItemProxy */;
+		};
+		6A8A702550C9CF5325488786D36EA4D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sparkle;
+			target = 09262CA0EB6E0F622C55146DC40F4015 /* Sparkle */;
+			targetProxy = 13FFEA05549B08E2CBD9F0A66F4357A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		07527EC4DA0A4CBA5C4A72E55F237AAE /* Release */ = {
+		0C2804986961CF3CC6DF9A0AF16309DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D27A56FDD8E22027169113EEAAA3614B /* Pods-kaze.release.xcconfig */;
+			baseConfigurationReference = 00B115560FA044D7E6E2CB8A5405413C /* Sparkle.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-kaze/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-kaze/Pods-kaze.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_kaze;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		3918C3731F97F7B1A6B91CA53EA9B086 /* Debug */ = {
+		22FD8BFC00D0E36CA7F8A9A3C8E7B8C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,10 +373,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -313,6 +386,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -321,7 +395,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -342,50 +415,32 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		649A054206672BD78134410F69A3AA5F /* Debug */ = {
+		5C4B484EDBD0137C3843B244E8A5D024 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BA700DBE07F66ADBDB812CF7AD5C64F /* Pods-kaze.debug.xcconfig */;
+			baseConfigurationReference = 00B115560FA044D7E6E2CB8A5405413C /* Sparkle.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-kaze/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-kaze/Pods-kaze.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_kaze;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6560A4AFF004D1420AB4047ED7B3E45A /* Release */ = {
+		86D267E3085844FA2217177F0D3FF579 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,10 +450,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -406,6 +463,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -414,7 +472,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -433,30 +490,146 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B124FF1811EC99F2653035F17B71CA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4845E4B0D37D9B79D7EB16680CC3D5E4 /* Pods-kaze.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-kaze/Pods-kaze-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-kaze/Pods-kaze.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4775F2689B1A6CDC9B9ADA9953C5EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8233401B8FF01199B35678D7216F0CF /* HockeySDK-Mac.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ED55A4BD830C825937E039CAFC4FF453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4669FD2CA9CAF7251574B4EC23349AD1 /* Pods-kaze.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-kaze/Pods-kaze-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-kaze/Pods-kaze.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3EECCB1EF2389DF6CC5CD9DCFA5DD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8233401B8FF01199B35678D7216F0CF /* HockeySDK-Mac.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02352DBC82DFAE1088CB1C0D881D1615 /* Build configuration list for PBXNativeTarget "Pods-kaze" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				649A054206672BD78134410F69A3AA5F /* Debug */,
-				07527EC4DA0A4CBA5C4A72E55F237AAE /* Release */,
+				22FD8BFC00D0E36CA7F8A9A3C8E7B8C7 /* Debug */,
+				86D267E3085844FA2217177F0D3FF579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		50263710ED84FE91B6D8F097CB0AB3F5 /* Build configuration list for PBXNativeTarget "Pods-kaze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3918C3731F97F7B1A6B91CA53EA9B086 /* Debug */,
-				6560A4AFF004D1420AB4047ED7B3E45A /* Release */,
+				B124FF1811EC99F2653035F17B71CA31 /* Debug */,
+				ED55A4BD830C825937E039CAFC4FF453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAA258DD359C5DA313AAD50AED6D8CD /* Build configuration list for PBXAggregateTarget "HockeySDK-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4775F2689B1A6CDC9B9ADA9953C5EFB /* Debug */,
+				F3EECCB1EF2389DF6CC5CD9DCFA5DD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B108BC112F689C7360D68BC934EBF89B /* Build configuration list for PBXAggregateTarget "Sparkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4B484EDBD0137C3843B244E8A5D024 /* Debug */,
+				0C2804986961CF3CC6DF9A0AF16309DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
